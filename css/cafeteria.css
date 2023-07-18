@@ -187,25 +187,25 @@ h1 {
   border: 1px solid silver;
 }
 
-section .uma-fracao ion-icon{
-  color:#000;
+section .uma-fracao ion-icon {
+  color: #000;
   width: 20px;
   height: 20px;
 }
-
-.img-depoimento{
+.img-depoimento {
   width: 50px;
   height: 50px;
-  border-radius: 50%;   /*arredondar os cantos da imagem*/
+  border-radius: 50%; /*arredondar os cantos da imagem*/
   margin: 10px;
   box-shadow: 0px 0px 10px silver;
 }
 
-.margem-top-base{
+.margem-top-base {
   margin: 30px 0px;
 }
-
-
+.centro {
+  text-align: center;
+}
 /*cores-texto*/
 .txt-orange-1 {
   color: rgb(245, 78, 17) !important;
@@ -218,6 +218,44 @@ section .uma-fracao ion-icon{
 }
 .txt-black-1 {
   color: #000 !important;
+}
+
+.tirar-marcador {
+  list-style: none;
+}
+.cat-cardapio {
+  padding: 10px 20px;
+  border: 1px solid silver;
+  border-radius: 30px;
+  margin: 10px 20px;
+}
+.cat-cardapio a {
+  font-family: Arial;
+  font-size: 12pt;
+  text-decoration: none;
+  color: #333;
+}
+
+.itens-cardapio{
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow:0px 5px 10px #666;
+  margin: 20px;
+  padding: 10px;
+  transition: ease 0.5s;
+  cursor: pointer
+}
+
+.img-cardapio-arredondado{
+border-radius: 10px;
+}
+
+.itens-cardapio:hover{
+  margin-top: -10px;
+  box-shadow: 0px 10px 15px #666;
+  margin-bottom: 50px;
 }
 
 /*Cores do Materialize css*/
