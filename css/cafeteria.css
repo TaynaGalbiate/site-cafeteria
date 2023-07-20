@@ -13,12 +13,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.btn-mobile{
-  color: white;
-  display: none;
-  
-}
-
 /* Aplicação de altura e plano de fundo ao header. Vamos colocar uma imagem
 como plano de fundo */
 header {
@@ -34,7 +28,13 @@ header nav {
   padding: 20px 500px;
   text-align: center;
 }
-
+header .btn-mobile{
+  display: block;
+  color: #fff;
+  padding: 10px;
+  font-size: 20pt;
+  font-weight: bold;
+}
 header nav ul {
   /*remover os marcadores*/
   list-style: none;

@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cafeteria</title>
     <link rel="stylesheet" href="css/cafeteria.css" />
+    <link rel="stylesheet" href="css/cafeteria-mobile.css">
   </head>
   <body>
     <header>
+      <a href="javascript:void" class="btn-mobile">
+        <ion-icon name="menu-outline"></ion-icon>
+      </a>
       <nav>
         <ul>
           <li class="nav-header"><a href="index.html">home</a></li>
@@ -31,13 +35,13 @@
 
     <main class="grey lighten-2">
       <div class="white img-cardapio-arredondado pedido">
-        <h3>Número do Pedido: 4214571</h3>
+        <h3 class="sub-h3">Número do Pedido: 4214571</h3>
         <div class="em-linha">
-          <p>Pedido realizado em: 12/06/2023</p>
-          <p>Estimativa de entrega 13/06/2023</p>
+          <p class="uma-fracao texto-1">Pedido realizado em: 12/06/2023</p>
+          <p class="uma-fracao texto-1">Estimativa de entrega 13/06/2023</p>
         </div>
 
-        <hr/>
+        <hr />
 
         <div class="em-linha">
           <div class="uma-fracao em-linha">
@@ -47,7 +51,7 @@
               <p class="texto-1 txt-black-1">Grãos organicos | Moido | Coado</p>
             </div>
           </div>
-          <div>
+          <div class="uma-fracao">
             <h3 class="sub-h3">R$ 6,90</h3>
             <p>Qtd: 1</p>
           </div>
@@ -56,12 +60,12 @@
         <div class="em-linha">
           <div class="uma-fracao em-linha">
             <img class="img-default-20" src="img/salgado.jpg" alt="" />
-            <div class="uma-fracao">
+            <div>
               <h3 class="sub-h3">Salgado especial</h3>
               <p class="texto-1 txt-black-1">Torta de frango | Queijo | Especiarias</p>
             </div>
           </div>
-          <div class="">
+          <div class="uma-fracao">
             <h3 class="sub-h3">R$ 10,90</h3>
             <p>Qtd: 1</p>
           </div>
@@ -128,7 +132,7 @@
       </div>
       <div class="end-footer">
         &copy; Copyright 2023 - Design by
-        <a href="https://www.github.com/edilsonsilva">Edilson Silva</a>
+        <a href="https://www.github.com/Diego12343">Diego Gomes</a>
         |
         <a href="javascript:void" onclick="politica();"
           >Politica de Privacidade</a
@@ -143,5 +147,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="js/cafeteria.js"></script>
   </body>
 </html>
