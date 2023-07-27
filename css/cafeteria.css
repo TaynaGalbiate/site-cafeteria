@@ -16,8 +16,8 @@ html {
 /* Aplicação de altura e plano de fundo ao header. Vamos colocar uma imagem
 como plano de fundo */
 header {
-  height: 600px; /*altura do header em 300px*/
-  background-image: url("../img/fundo7.jpg"); /*Imagem de fundo*/
+  height: 600px; /*altura do header em 600px*/
+  background-image: url("../img/fundo8.jpg"); /*Imagem de fundo*/
   background-size: 100%; /*redimensionar o plano de fundo para 100% da tela*/
   background-position: 0 -200px; /*posição do plano de fundo, onde o primeiro valor
     é x, ou seja, posição horizontal e o segundo valor é y, posição vertical*/
@@ -25,7 +25,7 @@ header {
 }
 header nav {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 20px 500px;
+  padding: 25px 500px;
   text-align: center;
 }
 header .btn-mobile {
@@ -40,7 +40,7 @@ header nav ul {
 }
 header nav ul li {
   /*dispor os links um ao lado do outro*/
-  flex: 1;
+  flex: 0.5;
 }
 
 header nav ul li img {
